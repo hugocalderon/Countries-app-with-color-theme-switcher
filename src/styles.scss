@@ -16,3 +16,8 @@ $container-max-widths: (
   padding-left: 0;
   padding-right: 0;
 }
+
+.filters input,
+.filters select{
+  height: 53px;
+}
