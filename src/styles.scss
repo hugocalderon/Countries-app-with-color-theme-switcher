@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
+$container-max-widths: (
+  sm: 540px,
+  md: 823px,
+  lg: 1030px,
+  xl: 1281px
+) !default;
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
