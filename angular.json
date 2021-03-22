@@ -51,7 +51,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "../node_modules/bootstrap-darkmode/dist/darktheme.css"
+              "./node_modules/bootstrap-darkmode/dist/darktheme.css"
             ],
             "scripts": []
           },
