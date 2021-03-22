@@ -5,3 +5,9 @@
 
 /* Importing Bootstrap Dark Theme file. */
 @import "~bootstrap-darkmode/darktheme";
+
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
