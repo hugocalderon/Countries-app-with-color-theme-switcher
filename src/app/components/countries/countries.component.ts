@@ -52,9 +52,7 @@ export class CountriesComponent implements OnInit {
   }
 
   loadDetail(item: any) {
-    console.log("TEST");
     const itemJSON = JSON.stringify(item);
-    // @ts-ignore
-    this.router.navigateByUrl('/detail');
+    this.router.navigateByUrl('/detail', { state: {data: itemJSON} });
   }
 }

@@ -2,6 +2,42 @@
   <span class="navbar-brand">Where in the world?</span>
   <ngbd-darkmode-switch></ngbd-darkmode-switch>
 </nav>
-
-
-sdsd
+<div class="container mt-5">
+  <div class="row mb-3">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-dark" routerLink="/">Back</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{{item?.flag}}" style="width: 100%;">
+    </div>
+    <div class="col-md-6">
+      <div class="card" style="width: 100%; height: 100%">
+        <div class="card-body" style="display: flex; flex-wrap: wrap;">
+          <h5 class="card-title">{{item?.name}}</h5>
+          <div class="row">
+            <div class="col-md-6">
+              <div><span class="font-weight-bold">Native Name:</span><span> {{item?.nativeName }}</span></div>
+              <div><span class="font-weight-bold">Population:</span><span> {{item?.population | number }}</span></div>
+              <div><span class="font-weight-bold">Region:</span><span> {{item?.region}}</span></div>
+              <div><span class="font-weight-bold">Sub Region:</span><span> {{item?.subregion}}</span></div>
+              <div><span class="font-weight-bold">Capital:</span><span> {{item?.capital}}</span></div>
+            </div>
+            <div class="col-md-6">
+              <div><span class="font-weight-bold">Top Level Domain:</span><span *ngFor="let i of item?.topLevelDomain"> {{ i }},</span></div>
+              <div><span class="font-weight-bold">Currencies:</span><span *ngFor="let i of item?.currencies"> {{i.name}}</span></div>
+              <div><span class="font-weight-bold">Languages:</span><span *ngFor="let i of item?.languages"> {{i.name}},</span></div>
+            </div>
+            <div class="col-md-12 mt-5">
+              <div>
+                <span class="font-weight-bold mr-2">Border Countries:</span>
+                <button class="btn  btn-dark mt-2 mr-2" *ngFor="let i of item?.borders">{{i}}</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
