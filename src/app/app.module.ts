@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {NgBootstrapDarkmodeModule} from 'ng-bootstrap-darkmode';
 import {HttpClientModule} from '@angular/common/http';
+import { DetailComponent } from './components/detail/detail.component';
+import { CountriesComponent } from './components/countries/countries.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DetailComponent,
+    CountriesComponent
   ],
   imports: [
     BrowserModule,
