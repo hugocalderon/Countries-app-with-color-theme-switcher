@@ -1,27 +1,51 @@
-# Myapp
+# Frontend Mentor - REST Countries API with color theme switcher solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### The challenge
 
-## Build
+- Build out the project to the designs provided
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Screenshot
 
-## Running unit tests
+![](./screenshot.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Links
 
-## Running end-to-end tests
+- Solution URL: [Solution URL here](#)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## My process
 
-## Further help
+### Built with
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Bootstrap 4.5
+- Angular 11.2  
+- [Sass](https://sass-lang.com/) - CSS Compiler 
+
+### Useful resources
+
+- [angular.io](https://angular.io/).
+- [getbootstrap.com](https://getbootstrap.com).
+- [netlify.com](netlify.com) - This platform supports me in seeing my project live.
+
+## Author
+
+- Website - [Hugo Calderón](https://hugocalderon.github.io/)
+- Frontend Mentor - [@hugocalderon](https://www.frontendmentor.io/profile/hugocalderon)
