@@ -23,4 +23,8 @@ export class CountriesService {
   getByRegion(region: string): Promise<any> {
     return this.httpClient.get<any>(`${this.barseUrl}/region/${region}`).toPromise();
   }
+
+  getByCodeISO(code: string): Promise<any> {
+    return this.httpClient.get<any>(`${this.barseUrl}/alpha/${code}`).toPromise();
+  }
 }
